@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("fonts/FuturaPT-Regular.woff2") format("woff2"),
+       url("fonts/FuturaPT-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: sans-serif;
+  font-family: "Futura PT"
 }
 
 body {
@@ -2084,9 +2092,9 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --color--gray-2: #f9edff;
-  --font-family--body: Satoshi, sans-serif;
+  --font-family--body: "Futura PT";
   --color--gray-1: #575757;
-  --font-family--heading: Helveticanowdisplay, sans-serif;
+  --font-family--heading: "Futura PT";
   --color--heading: var(--color--black);
   --border-radius--border-radius: 15px;
   --color--primary-3: #e87f6a;
@@ -3013,7 +3021,7 @@ figcaption {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(131, 68, 172);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -7204,7 +7212,7 @@ figcaption {
   }
 
   .hero-title-left {
-    font-size: 80px;
+    font-size: 47px;
   }
 
   .hero-section-dark-content-left {
