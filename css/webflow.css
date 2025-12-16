@@ -3041,7 +3041,7 @@ figcaption {
   grid-row-gap: 20px;
   grid-template-rows: auto;
   grid-template-columns: .75fr auto .75fr;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .nav-link {
@@ -3708,8 +3708,8 @@ figcaption {
 }
 
 .about-counter-image-rounded {
-  background-color: var(--color--primary-1); /* color de fondo si no hay imagen */
-  background-image: url('images/logo.png');  /* tu imagen de fondo */
+  background-color: #84489b; /* color de fondo si no hay imagen */
+  /*background-image: url('images/logo_redondo.png');  /* tu imagen de fondo */
   background-size: cover;   /* cubre todo el contenedor */
   background-position: center; /* centra la imagen */
   background-repeat: no-repeat; /* evita que se repita */
@@ -4201,6 +4201,7 @@ figcaption {
   background-color: var(--color--primary-3);
   color: var(--color--primary-1);
 }
+
 
 .grid-causes {
   grid-column-gap: 20px;
