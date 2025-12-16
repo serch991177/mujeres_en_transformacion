@@ -3708,19 +3708,23 @@ figcaption {
 }
 
 .about-counter-image-rounded {
-  background-color: var(--color--primary-1);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--color--primary-1); /* color de fondo si no hay imagen */
+  background-image: url('images/logo.png');  /* tu imagen de fondo */
+  background-size: cover;   /* cubre todo el contenedor */
+  background-position: center; /* centra la imagen */
+  background-repeat: no-repeat; /* evita que se repita */
+  border-radius: 50%;       /* círculo perfecto */
   width: 150px;
   height: 150px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: -75px;
-  bottom: auto;
   left: 50px;
-  right: auto;
+  overflow: hidden;        /* opcional, por si agregas contenido dentro */
 }
+
 
 .about-counter-image {
   width: 140px;
