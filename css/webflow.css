@@ -63,7 +63,10 @@ mark {
   color: #000;
   background: #ff0;
 }
-
+.client-image {
+    max-width: 13%;
+    height: auto;
+}
 small {
   font-size: 80%;
 }
@@ -9367,7 +9370,8 @@ figcaption {
   }
 
   .client-image {
-    height: 30px;
+    height: 100px;
+    max-width: 100% !important;
   }
 
   .nav-contact-wrap {
