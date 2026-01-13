@@ -210,7 +210,10 @@ td, th {
 .w-icon-file-upload-icon:before {
   content: "î¤ƒ";
 }
-
+.client-image {
+  max-width: 13%;
+  height: auto;
+}
 * {
   box-sizing: border-box;
 }
@@ -9354,7 +9357,8 @@ figcaption {
   }
 
   .client-image {
-    height: 30px;
+    height: 100px;
+    max-width: 100% !important;
   }
 
   .nav-contact-wrap {
