@@ -3089,7 +3089,7 @@ figcaption {
   grid-row-gap: 30px;
   border-bottom: 1px solid var(--color--gray-1);
   grid-template-rows: auto;
-  grid-template-columns: .75fr .75fr .75fr .9fr;
+  grid-template-columns: 1fr .9fr 1fr;
   padding-bottom: 30px;
 }
 
